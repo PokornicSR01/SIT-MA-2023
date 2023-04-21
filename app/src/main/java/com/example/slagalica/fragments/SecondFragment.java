@@ -1,4 +1,4 @@
-package com.example.slagalica;
+package com.example.slagalica.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.slagalica.R;
 import com.example.slagalica.databinding.FragmentSecondBinding;
 
 public class SecondFragment extends Fragment {
