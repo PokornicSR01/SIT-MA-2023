@@ -43,5 +43,9 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+<<<<<<< HEAD
     <string name="title_activity_ko_zna_zna">KoZnaZna</string>
+=======
+    <string name="title_activity_main_window">MainWindowActivity</string>
+>>>>>>> 02308393456e1a11a614113b77b5a155fad79c5f
 </resources>
