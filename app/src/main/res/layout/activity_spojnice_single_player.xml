@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SpojniceSinglePlayerActivity">
+
+    <TextView
+        android:id="@+id/textview_aasocijacije_pitanje_singlePlayer_1"
+        android:layout_width="276dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="628dp"
+        android:background="@drawable/my_border"
+        android:text="Neki Tekst"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview_aasocijacije_vreme_singlePlayer_1"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="628dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttona_aasocijacije_levo_singlePlayer_1"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttona_aasocijacije_levo_singlePlayer_2"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_levo_singlePlayer_3"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_levo_singlePlayer_4"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_levo_singlePlayer_5"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_levo_singlePlayer_6"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_levo_singlePlayer_7"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_levo_singlePlayer_8"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_levo_singlePlayer_9"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginRight="120dp"
+        android:text="Nesto 9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_levo_singlePlayer_10"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginRight="190dp"
+        android:text="Nesto 10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_desno_singlePlayer_1"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_desno_singlePlayer_2"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_desno_singlePlayer_3"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_aasocijacije_desno_singlePlayer_4"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_asocijacije_desno_singlePlayer_5"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_asocijacije_desno_singlePlayer_6"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_asocijacije_desno_singlePlayer_7"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_asocijacije_desno_singlePlayer_8"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_asocijacije_desno_singlePlayer_9"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_asocijacije_desno_singlePlayer_10"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginRight="-190dp"
+        android:text="Nesto 10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

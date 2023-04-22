@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SinglePlayerActivity">
+
+    <Button
+        android:id="@+id/button_koznazna_singleplayer"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="120dp"
+        android:text="Ko zna zna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_spojnice_singleplayer"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="120dp"
+        android:text="Spojnice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_asocijacije_singleplayer"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="120dp"
+        android:text="Asocijacije"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_skocko_singleplayer"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="120dp"
+        android:text="Skocko"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_korakpokorak_singleplayer"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="120dp"
+        android:text="Korak po korak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_singleplayer"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="120dp"
+        android:text="Moj broj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_ukupnibodovi_singleplayer"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginRight="120dp"
+        android:text="Ukupni bodovi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_koznazna_bodovi_singlePlayer"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="592dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview_spojnice_bodovi_singlePlayer"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="516dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_asocijacije_bodovi_singlePlayer"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="444dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_skocko_bodovi_singlePlayer"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="376dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_korakpokorak_bodovi_singlePlayer"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="304dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_mojbroj_bodovi_singlePlayer"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_ukupnobodovi_bodovi_singlePlayer"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
