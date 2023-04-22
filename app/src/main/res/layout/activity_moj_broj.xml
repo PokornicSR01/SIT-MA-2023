@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MojBrojActivity">
+
+    <TextView
+        android:id="@+id/textview_mojbroj_vreme_singlePlayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="632dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview_mojbroj_resenje_singlePlayer"
+        android:layout_width="206dp"
+        android:layout_height="151dp"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/my_border"
+        android:text="3+5"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_mojbroj_konacanbroj1_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginRight="120dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_konacanbroj2_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginRight="120dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_konacanbroj3_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginRight="120dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_broj1_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginRight="120dp"
+        android:text="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_broj2_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginRight="120dp"
+        android:text="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_broj3_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginRight="120dp"
+        android:text="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_broj4_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginRight="120dp"
+        android:text="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_broj5_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginRight="120dp"
+        android:text="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_broj6_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginRight="120dp"
+        android:text="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_mojbroj_otvorenazagrada_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="("
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/button_mojbroj_zatvorenazagrada_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text=")"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/button_mojbroj_plus_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="+"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button_mojbroj_minus_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="-"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button_mojbroj_puta_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="*"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="547dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button_mojbroj_podeljeno_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="/"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <Button
+        android:id="@+id/button_mojbroj_potvrdi_singleplayer"
+        android:layout_width="201dp"
+        android:layout_height="60dp"
+        android:text="Potvrdi"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <Button
+        android:id="@+id/button_mojbroj_obrisi_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="O"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="625dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_mojbroj_Stop_singleplayer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="Stop"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="625dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
