@@ -6,12 +6,12 @@
         <type value="RUNNING_DEVICE_TARGET" />
         <deviceKey>
           <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\NEMANJA\.android\avd\Pixel_6_Pro_API_30.avd" />
+            <type value="SERIAL_NUMBER" />
+            <value value="R58N90WSSCT" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2023-04-23T18:40:42.062610900Z" />
+    <timeTargetWasSelectedWithDropDown value="2023-04-23T18:55:07.564933400Z" />
   </component>
 </project>
