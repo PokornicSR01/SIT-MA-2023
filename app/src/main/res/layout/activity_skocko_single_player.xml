@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SkockoSinglePlayerActivity">
+
+    <TextView
+        android:id="@+id/textView_skocko_vreme"
+        android:layout_width="57dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="664dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red3_polje3"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red6_polje2"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red5_polje4"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red5_polje3"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red2_polje3"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="488dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red3_polje1"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red2_polje1"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="488dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red1_polje2"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="576dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red5_polje2"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red1_polje4"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="576dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red5_polje1"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red2_polje2"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="488dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red2_polje4"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="488dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red6_polje1"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red1_polje1"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="576dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red4_polje1"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="312dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red6_polje3"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red4_polje4"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="312dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red4_polje2"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="312dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red4_polje3"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="312dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red6_polje4"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red3_polje4"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red1_polje3"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="576dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_skocko_red3_polje2"
+        android:layout_width="59dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/my_border"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_skocko_skocko"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_skocko_tref"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_skocko_pik"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_skocko_herc"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_skocko_karo"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_skocko_zvezda"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.KorakPoKorak">
+
+
+
+
+    <TextView
+        android:id="@+id/textView_skocko_vreme"
+        android:layout_width="57dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="664dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_koznazna_polje6"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="304dp"
+        android:background="@drawable/my_border"
+        android:text="6"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_koznazna_polje5"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="356dp"
+        android:background="@drawable/my_border"
+        android:text="5"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_koznazna_polje7"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/my_border"
+        android:text="7"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_koznazna_resenje"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/my_border"
+        android:text="RESENJE"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_koznazna_polje4"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="412dp"
+        android:background="@drawable/my_border"
+        android:text="4"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_koznazna_polje3"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="468dp"
+        android:background="@drawable/my_border"
+        android:text="3"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_koznazna_polje2"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="524dp"
+        android:background="@drawable/my_border"
+        android:text="2"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_koznazna_polje1"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="580dp"
+        android:background="@drawable/my_border"
+        android:text="1"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
