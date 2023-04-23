@@ -10,31 +10,29 @@
         android:id="@+id/textview_aasocijacije_pitanje_singlePlayer_1"
         android:layout_width="276dp"
         android:layout_height="77dp"
-        android:layout_marginBottom="628dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/my_border"
         android:text="Neki Tekst"
         android:textAlignment="center"
         android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textview_aasocijacije_vreme_singlePlayer_1"
         android:layout_width="77dp"
         android:layout_height="77dp"
-        android:layout_marginBottom="628dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/my_border"
         android:text="0"
         android:textAlignment="center"
         android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttona_aasocijacije_levo_singlePlayer_1"
