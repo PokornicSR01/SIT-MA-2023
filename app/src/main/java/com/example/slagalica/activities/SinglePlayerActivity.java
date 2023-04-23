@@ -44,5 +44,35 @@ public class SinglePlayerActivity extends AppCompatActivity {
             );
             startActivity(secondActivityIntent);
         });
+
+        Button buttonSkockoActivity = findViewById(
+                R.id.button_skocko_singleplayer
+        );
+        buttonSkockoActivity.setOnClickListener(view -> {
+            Intent secondActivityIntent = new Intent(
+                    getApplicationContext(), SkockoSinglePlayerActivity.class
+            );
+            startActivity(secondActivityIntent);
+        });
+
+        Button buttonKorakPoKorak = findViewById(
+                R.id.button_korakpokorak_singleplayer
+        );
+        buttonKorakPoKorak.setOnClickListener(view -> {
+            Intent secondActivityIntent = new Intent(
+                    getApplicationContext(), KorakPoKorak.class
+            );
+            startActivity(secondActivityIntent);
+        });
+
+        Button buttonAsocijacije = findViewById(
+                R.id.button_asocijacije_singleplayer
+        );
+        buttonAsocijacije.setOnClickListener(view -> {
+            Intent secondActivityIntent = new Intent(
+                    getApplicationContext(), AsocijacijeSinglePlayerActivity.class
+            );
+            startActivity(secondActivityIntent);
+        });
     }
 }

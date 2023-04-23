@@ -7,17 +7,13 @@
     android:fitsSystemWindows="true"
     tools:context=".activities.MainWindowActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fitsSystemWindows="true">
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints" />
 
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize" />
-
-    </com.google.android.material.appbar.AppBarLayout>
 
     <Button
         android:id="@+id/button_singleplayer"
