@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AsocijacijeSinglePlayerActivity">
+
+    <TextView
+        android:id="@+id/textView_skocko_vreme"
+        android:layout_width="57dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="664dp"
+        android:background="@drawable/my_border"
+        android:text="0"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/textView_asocijacije_resenje"
+        android:layout_width="400dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="336dp"
+        android:text="RESENJE"
+        android:textAlignment="center"
+        android:background="@drawable/my_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView_asocijacije_resenjeA"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="388dp"
+        android:background="@drawable/my_border"
+        android:text="A"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_asocijacije_resenjeD"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="292dp"
+        android:background="@drawable/my_border"
+        android:text="D"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_asocijacije_resenjeC"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="292dp"
+        android:background="@drawable/my_border"
+        android:text="C"
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_asocijacije_resenjeB"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="388dp"
+        android:background="@drawable/my_border"
+        android:text="B"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_B_polje1"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="448dp"
+        android:background="@drawable/my_border"
+        android:text="B1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_B_polje2"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="492dp"
+        android:background="@drawable/my_border"
+        android:text="B2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_B_polje3"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="536dp"
+        android:background="@drawable/my_border"
+        android:text="B3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_A_polje2"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="492dp"
+        android:background="@drawable/my_border"
+        android:text="A2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_C_polje1"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/my_border"
+        android:text="C1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_C_polje2"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/my_border"
+        android:text="C2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_C_polje3"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/my_border"
+        android:text="C3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_C_polje4"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/my_border"
+        android:text="C4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_D_polje1"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/my_border"
+        android:text="D1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_D_polje2"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/my_border"
+        android:text="D2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_D_polje3"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/my_border"
+        android:text="D3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_D_polje4"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/my_border"
+        android:text="D4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_A_polje1"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="448dp"
+        android:background="@drawable/my_border"
+        android:text="A1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_A_polje3"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="536dp"
+        android:background="@drawable/my_border"
+        android:text="A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_A_polje4"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="580dp"
+        android:background="@drawable/my_border"
+        android:text="A4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/textView_asocijacije_B_polje4"
+        android:layout_width="163dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="580dp"
+        android:background="@drawable/my_border"
+        android:text="B4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
