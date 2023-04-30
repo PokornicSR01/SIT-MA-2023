@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple"
     tools:context=".activities.RegisterActivity">
 
     <EditText
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:hint="Ime"
         android:inputType="text"
+        android:background="@drawable/my_border"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="156dp" />
@@ -21,6 +23,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Prezime"
+        android:background="@drawable/my_border"
         android:inputType="text"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
@@ -31,6 +34,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Email"
+        android:background="@drawable/my_border"
         android:inputType="textEmailAddress"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
@@ -41,6 +45,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Passwrod"
+        android:background="@drawable/my_border"
         android:inputType="textPassword"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
