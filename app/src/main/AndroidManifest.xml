@@ -12,13 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Slagalica"
         tools:targetApi="31">
-
-
-
+        <activity
+            android:name=".activities.Profil"
+            android:exported="false" />
         <activity
             android:name=".activities.KoZnaZna"
             android:exported="true" />
-
         <activity
             android:name=".activities.KorakPoKorak"
             android:exported="false" />
@@ -28,7 +27,6 @@
         <activity
             android:name=".activities.SkockoSinglePlayerActivity"
             android:exported="false" />
-
         <activity
             android:name=".activities.MojBrojActivity"
             android:exported="false" />
@@ -59,12 +57,10 @@
             android:theme="@style/Theme.Slagalica">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
     </application>
 
 </manifest>
