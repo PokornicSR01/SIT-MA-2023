@@ -309,67 +309,68 @@
         app:layout_constraintHorizontal_bias="0.264"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_skocko_skocko"
         android:layout_width="61dp"
         android:layout_height="57dp"
         android:layout_marginBottom="52dp"
-        android:text="Button"
+        android:src="@drawable/ic_skocko"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.757"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_skocko_tref"
         android:layout_width="61dp"
         android:layout_height="57dp"
         android:layout_marginBottom="52dp"
-        android:text="Button"
+        android:src="@drawable/ic_tref"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.931"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_skocko_pik"
         android:layout_width="61dp"
         android:layout_height="57dp"
         android:layout_marginBottom="52dp"
-        android:text="Button"
+        android:src="@drawable/ic_pik"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.582"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_skocko_herc"
         android:layout_width="61dp"
         android:layout_height="57dp"
         android:layout_marginBottom="52dp"
-        android:text="Button"
+
+        android:src="@drawable/ic_herc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_skocko_karo"
         android:layout_width="61dp"
         android:layout_height="57dp"
         android:layout_marginBottom="52dp"
-        android:text="Button"
+        android:src="@drawable/ic_karo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_skocko_zvezda"
         android:layout_width="61dp"
         android:layout_height="57dp"
         android:layout_marginBottom="52dp"
-        android:text="Button"
+        android:src="@drawable/ic_zvezda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
