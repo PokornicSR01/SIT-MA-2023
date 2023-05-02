@@ -10,11 +10,12 @@ import android.widget.Button;
 import com.example.slagalica.MainActivity;
 import com.example.slagalica.R;
 import com.example.slagalica.databinding.ActivityMainBinding;
+import com.example.slagalica.databinding.ActivitySinglePlayerBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class SinglePlayerActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+    private ActivitySinglePlayerBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +26,7 @@ public class SinglePlayerActivity extends AppCompatActivity {
 
         MenuItem itemHome = bottomNavigationView.getMenu().findItem(R.id.home);
         itemHome.setOnMenuItemClickListener((view -> {
-            Intent intent = new Intent(SinglePlayerActivity.this, MainActivity.class);
+            Intent intent = new Intent(SinglePlayerActivity.this, MainWindowActivity.class);
             startActivity(intent);
             return true;
         }));
@@ -39,7 +40,7 @@ public class SinglePlayerActivity extends AppCompatActivity {
 
         MenuItem itemLogout = bottomNavigationView.getMenu().findItem(R.id.logout);
         itemLogout.setOnMenuItemClickListener((view -> {
-            Intent intent = new Intent(SinglePlayerActivity.this, MainWindowActivity.class);
+            Intent intent = new Intent(SinglePlayerActivity.this, MainActivity.class);
             startActivity(intent);
             return true;
         }));

@@ -34,23 +34,9 @@ public class MainWindowActivity extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        MenuItem itemHome = bottomNavigationView.getMenu().findItem(R.id.home);
-        itemHome.setOnMenuItemClickListener((view -> {
-            Intent intent = new Intent(MainWindowActivity.this, MainActivity.class);
-            startActivity(intent);
-            return true;
-        }));
-
         MenuItem itemLogin = bottomNavigationView.getMenu().findItem(R.id.login);
         itemLogin.setOnMenuItemClickListener((view -> {
             Intent intent = new Intent(MainWindowActivity.this, LoginActivity.class);
-            startActivity(intent);
-            return true;
-        }));
-
-        MenuItem itemLogout = bottomNavigationView.getMenu().findItem(R.id.logout);
-        itemLogout.setOnMenuItemClickListener((view -> {
-            Intent intent = new Intent(MainWindowActivity.this, MainWindowActivity.class);
             startActivity(intent);
             return true;
         }));
@@ -69,11 +55,31 @@ public class MainWindowActivity extends AppCompatActivity {
             return true;
         }));
 
-        Button button_cancel = (Button) findViewById(R.id.button_singleplayer);
-        button_cancel.setOnClickListener(new View.OnClickListener() {
+        MenuItem itemLogout = bottomNavigationView.getMenu().findItem(R.id.logout);
+        itemLogout.setOnMenuItemClickListener((view -> {
+            Intent intent = new Intent(MainWindowActivity.this, MainActivity.class);
+            startActivity(intent);
+            return true;
+        }));
+
+        Button button_singleplayer = (Button) findViewById(R.id.button_singleplayer);
+        button_singleplayer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                button_cancel.setOnClickListener(view -> {
+                button_singleplayer.setOnClickListener(view -> {
+                    Intent secondActivityIntent = new Intent(
+                            getApplicationContext(), SinglePlayerActivity.class
+                    );
+                    startActivity(secondActivityIntent);
+                });
+            }
+        });
+
+        Button button_multyplayer = (Button) findViewById(R.id.button_multiplayer);
+        button_multyplayer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button_multyplayer.setOnClickListener(view -> {
                     Intent secondActivityIntent = new Intent(
                             getApplicationContext(), SinglePlayerActivity.class
                     );
